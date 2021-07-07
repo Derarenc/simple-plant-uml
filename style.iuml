@@ -1,0 +1,53 @@
+@startuml
+
+!define modified c2d8f2
+!define moved Gold
+!define new bee6be
+!define deleted ffebe6
+
+hide empty description
+hide empty members
+
+hide class <<usecase>> stereotype
+
+skinparam {
+    ' Global
+'    DPI 200
+    Shadowing false
+    roundcorner 3
+
+    ' Font
+    DefaultFontName Consolas
+    DefaultFontColor #333
+    DefaultFontSize 14
+    DefaultMonospacedFontName Consolas
+    NoteFontName Calibri
+    NoteFontStyle Italic
+    TitleFontSize 24
+
+    ' Borders
+    ActorBordercolor Black
+    ArrowColor Black
+    ClassBordercolor Gray
+    ComponentBordercolor Gray
+
+    NoteBordercolor Black
+    ParticipantBorderColor Black
+    UsecaseBordercolor Gray
+
+    ' Backgrounds
+    ActorBackgroundcolor White
+    ClassBackgroundcolor White
+    ComponentBackgroundcolor White
+    NoteBackgroundcolor White
+    ParticipantBackgroundColor White
+    UsecaseBackgroundcolor White
+
+    ' Usecase
+    stereotypeCBackgroundcolor<<usecase>> Salmon
+
+    ' Text
+    NoteBordercolor<<label>> White
+}
+
+@enduml
