@@ -5,6 +5,9 @@
 !define new bee6be
 !define deleted ffebe6
 
+!define NTAB \n<U+00A0><U+00A0><U+00A0>
+!define TAB <U+00A0><U+00A0><U+00A0>
+
 hide empty description
 hide empty members
 
